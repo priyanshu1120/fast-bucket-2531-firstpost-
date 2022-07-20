@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page | FirstPost</title>
+</head>
+<style>
+    h2{
+        text-align: center;
+        padding-bottom: 6px;
+        border-bottom: 1px solid grey;
+    }
+    #home-tank{
+       
+        display: grid;
+        width: 80%;
+        grid-template-columns: 53% 20%;
+        grid-template-rows: repeat(auto,auto);
+        gap: 2%;
+        background-color: pink;
+        margin: auto;
+    }
+    #home-tank>#left-tank{
+        /* margin: auto; */
+        text-align: center;
+    }
+    #home-tank>#left-tank>div>img{
+        height: 4%;
+        width: 100%;
+    }
+    #right-tank{
+       /* display: block; */
+       /* background-color: black; */
+       /* margin: auto; */
+    }
+    .small_box>div:nth-child(1){
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid grey;
+    }
+    .small_box>div:nth-child(1){
+        font-size: 20px;
+        font-weight: 600;
+    
+    }
+    .small_box>p:nth-child(2){
+        font-size: 18px;
+        font-weight: 550;
+    }
+</style>
+<body>
+    <div id="home-tank">
+        <div id="left-tank">
+            <h2>THE BIG STORY</h2>
+            <img src="" id="error_img">
+        </div>
+        <div id="right-tank">
+            <div>
+                <p>Subscribe to our foreign policy newsletter</p>
+                <p>Sign up for a weekly curated briefing of the most important strategic affairs stories from across the world.</p>
+                <div>Email Address</div>
+                <input type="email" id="" placeholder="Enter your email" />
+                <button>Subscribe</button>
+            </div>
+
+            <div class="small_box">
+                <div>
+                    <div>1</div>
+                    <p>Ready for price rise debate once Nirmala Sitaraman recovers, Rahu; Gandhi Shouldn't hurt Parliament's productivity:BJP</p>
+                </div>
+                <p>Ther opposition has demanded the rollback of 5 per cent GST on pre-packaged or labbled food items such as cereals,pulses and floor weight lass then 25kg. For a commodity measured in litres like lassi, the limit is 25 litre </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="./scripts/home.js"></script>
