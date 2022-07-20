@@ -6,7 +6,11 @@
     <title>Home Page | FirstPost</title>
 </head>
 <style>
-    h2{
+    /* *{
+        margin: 0px;
+        padding: 0px;
+    } */
+    #head{
         text-align: center;
         padding-bottom: 6px;
         border-bottom: 1px solid grey;
@@ -14,11 +18,11 @@
     #home-tank{
        
         display: grid;
-        width: 80%;
-        grid-template-columns: 53% 20%;
+        width: 78%;
+        grid-template-columns: 53% 22%;
         grid-template-rows: repeat(auto,auto);
-        gap: 2%;
-        background-color: pink;
+        gap: 3%;
+        /* background-color: pink; */
         margin: auto;
     }
     #home-tank>#left-tank{
@@ -29,33 +33,57 @@
         height: 4%;
         width: 100%;
     }
-    #right-tank{
-       /* display: block; */
-       /* background-color: black; */
-       /* margin: auto; */
+    #news_cards{
+   position:relative;
+   margin-top: -50px;
+   margin-left: 20px;
+   padding: 10px;
+   background-color: white;
     }
-    .small_box>div:nth-child(1){
-        display: flex;
-        justify-content: space-between;
+    #trending{
+        text-align: left;
+        border-bottom: 2px solid orange;
+    }
+    #news{
         border: 1px solid grey;
     }
-    .small_box>div:nth-child(1){
-        font-size: 20px;
-        font-weight: 600;
+    /* #news>h1::after{
+       background-image: ;
+    } */
+    /* .story-list-ul li::after {
+    background: #efefef;
+    content: '';
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 0;
+    left: 9px;
+    top: 23px;
+    } */
+    #news>h2{
+        position: relative;
+        margin-top: -70px;
+        padding-left: 30px;
+        
+    }
+    #news>p{
+        padding: 2px 8px 2px 8px;
+    }
+   
+</style> 
     
-    }
-    .small_box>p:nth-child(2){
-        font-size: 18px;
-        font-weight: 550;
-    }
-</style>
 <body>
     <div id="home-tank">
         <div id="left-tank">
-            <h2>THE BIG STORY</h2>
-            <img src="" id="error_img">
+            <h2 id="head">THE BIG STORY</h2>
+            <img src="" id="error_img"/>
         </div>
         <div id="right-tank">
+            <div>
+                <img src="https://tpc.googlesyndication.com/simgad/4290255678102308613" alt="aid_logo">
+            </div>
             <div>
                 <p>Subscribe to our foreign policy newsletter</p>
                 <p>Sign up for a weekly curated briefing of the most important strategic affairs stories from across the world.</p>
@@ -63,17 +91,12 @@
                 <input type="email" id="" placeholder="Enter your email" />
                 <button>Subscribe</button>
             </div>
-
-            <div class="small_box">
-                <div>
-                    <div>1</div>
-                    <p>Ready for price rise debate once Nirmala Sitaraman recovers, Rahu; Gandhi Shouldn't hurt Parliament's productivity:BJP</p>
-                </div>
-                <p>Ther opposition has demanded the rollback of 5 per cent GST on pre-packaged or labbled food items such as cereals,pulses and floor weight lass then 25kg. For a commodity measured in litres like lassi, the limit is 25 litre </p>
-            </div>
         </div>
     </div>
 </body>
 </html>
 
-<script src="./scripts/home.js"></script>
+<script src="./scripts/home.js" type="module">
+
+
+</script>
