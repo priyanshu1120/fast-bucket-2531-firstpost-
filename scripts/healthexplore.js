@@ -38,7 +38,7 @@ let autoNews = async () => {
   console.log(data.articles);
   let container = document.getElementById("relatedNews");
   container.innerHTML = null;
-  newsDisplayData(data.articles, container, "auto");
+  newsDisplayData(data.articles, container, "Health");
 };
 
 autoNews();
