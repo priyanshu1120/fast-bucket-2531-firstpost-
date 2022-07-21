@@ -62,7 +62,7 @@ let appendToHome=(data,contain)=> {
 
 let playVideo = (results) => {
     localStorage.setItem("newsBank", JSON.stringify(results));
-    window.location.href = "news.html";
+    window.location.href = "home-news.html";
     };
 
 let fetchApi2 = async(url2) => {
