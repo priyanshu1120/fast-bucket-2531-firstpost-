@@ -3,13 +3,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page | FirstPost</title>
+    <title>LIVE updates, Latest News, Breaking News, Bollywood, Business and Political News – Firstpost</title>
+    <link rel="shortcut icon prefetch" href="https://www.firstpost.com/static/images/favicon.ico?v=6.76" />
 </head>
 <style>
-    /* *{
-        margin: 0px;
-        padding: 0px;
-    } */
+    
     #head{
         text-align: center;
         padding-bottom: 6px;
@@ -22,7 +20,6 @@
         grid-template-columns: 53% 22%;
         grid-template-rows: repeat(auto,auto);
         gap: 3%;
-        /* background-color: pink; */
         margin: auto;
     }
     #home-tank>#left-tank{
@@ -47,21 +44,6 @@
     #news{
         border: 1px solid grey;
     }
-    /* #news>h1::after{
-       background-image: ;
-    } */
-    /* .story-list-ul li::after {
-    background: #efefef;
-    content: '';
-    display: inline-block;
-    width: 27px;
-    height: 27px;
-    border-radius: 50%;
-    position: absolute;
-    z-index: 0;
-    left: 9px;
-    top: 23px;
-    } */
     #news>h2{
         position: relative;
         margin-top: -70px;
@@ -71,18 +53,35 @@
     #news>p{
         padding: 2px 8px 2px 8px;
     }
-   
+    .logo_style{
+        width: 100%;
+        height: 3%;
+        margin-bottom: 50px;
+    }
+    #aid_upper{
+        display: block;
+        margin: auto;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    #right_upper{
+        height: 2.7%;
+        width: 100%;
+    }
 </style> 
     
 <body>
+    <img id="aid_upper" src="https://tpc.googlesyndication.com/simgad/11362173984675090538" alt="Aid_s" />
     <div id="home-tank">
         <div id="left-tank">
             <h2 id="head">THE BIG STORY</h2>
-            <img src="" id="error_img"/>
+            <img name="slide" height="3%" width="100%" style="margin-bottom: 30px;">
+            <img  id="error_img"/>
         </div>
         <div id="right-tank">
             <div>
-                <img src="https://tpc.googlesyndication.com/simgad/4290255678102308613" alt="aid_logo">
+                <img id="right_upper" src="https://tpc.googlesyndication.com/simgad/2635120488604611906" alt="aid_logo">
             </div>
             <div>
                 <p>Subscribe to our foreign policy newsletter</p>
@@ -96,7 +95,28 @@
 </body>
 </html>
 
-<script src="./scripts/home.js" type="module">
+<script src="./scripts/home.js" type="module"></script>
 
-
+<script async>
+     let i=0;
+ let images = [];
+ let time = 1000;
+ images[0] = 'https://images.firstpost.com/wp-content/uploads/fpranking/1658372288845.jpg';
+ images[1] = 'https://images.firstpost.com/wp-content/uploads/fpranking/165837163152.jpg';
+ images[2] = 'https://images.firstpost.com/wp-content/uploads/fpranking/1658373015765.jpg';
+ images[3] = 'https://images.firstpost.com/wp-content/uploads/fpranking/1658373015520.jpg';
+ images[4] = 'https://images.firstpost.com/wp-content/uploads/fpranking/1658373015176.jpg';
+ 
+ function changeImg(){
+     document.slide.src = images[i];
+ 
+     if(i<images.length -1){
+         i++;
+     } else{
+         i=0;
+     }
+     setTimeout("changeImg()",time);
+ }
+ changeImg();
+ window.onload = changeImg;
 </script>

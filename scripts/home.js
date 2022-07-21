@@ -1,3 +1,7 @@
+
+
+
+
 let api = `662aa30ca2b1499189f1cbba8cb46f5a`;
 
 import {fetchingApi,appendToHome,fetchApi2,appendToSide} from "./home_components/fetch&append.js"

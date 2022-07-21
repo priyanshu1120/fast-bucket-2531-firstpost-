@@ -37,14 +37,33 @@ let appendToHome=(data,contain)=> {
     
         let disc = document.createElement('p');
         disc.innerText = description;
+
+        // let aid_1 = document.createComment('img');
+        // aid_1.src = 'https://tpc.googlesyndication.com/simgad/11362173984675090538';
+
         content.append(trend,tit,disc);
 
         div.append(img,content);
         
         contain.append(div);
+
+        let results = {
+            urlToImage,
+            title,
+            description
+          }
+
+          div.onclick = () => {
+            playVideo(results);
+          };
     });
 
 }
+
+let playVideo = (results) => {
+    localStorage.setItem("newsBank", JSON.stringify(results));
+    window.location.href = "news.html";
+    };
 
 let fetchApi2 = async(url2) => {
 
@@ -76,12 +95,24 @@ let appendToSide = (data, container) => {
         for(let i=1;i<=1;i++){
             increment.innerText= nums++;
         }
+        let aid_1 = document.createElement('img');
+        aid_1.setAttribute('class','logo_style');
+        aid_1.src = 'https://images.outbrainimg.com/transform/v3/eyJpdSI6IjgyNDBkZWQ2NjBmMDMzNjQwNTNmMGI3ZDkyZDAwZDY5NDAxNDJjMGJkMzFiN2MyOTNkNmQwOWMxYTIzOGExOWEiLCJ3IjozOTAsImgiOjI0MCwiZCI6MS41LCJjcyI6MCwiZiI6NH0.webp';
+        
+        let aid_2 = document.createElement('img');
+        aid_2.src = 'https://wlskyinfopartners.eacdn.com/wlskyinfopartners/img/f7fa6afe-6120-4062-a10d-fcfd57480db6.jpg';
+        aid_2.setAttribute('class','logo_style');
+        
+        let aid_3 = document.createElement('img');
+        aid_3.src = 'https://images.outbrainimg.com/transform/v3/eyJpdSI6IjFmYjU1MWViZTc2ODY0NDJjYzg3NzI1ZWVhODUzNTg2MjMzMmEzYmMyMDU3N2Y1MGM3NzhlNjdhN2Y2OTcwMzciLCJ3IjozOTAsImgiOjI0MCwiZCI6MS41LCJjcyI6MCwiZiI6NH0.webp';
+        aid_3.setAttribute('class','logo_style');
+        
         div.append(increment);
         div.append(increment,Title,Description);
-        container.append(div);
+        container.append(div,aid_1,aid_2,aid_3);
     });
 
 }
 
 
-export {fetchingApi,appendToHome,appendToSide,fetchApi2}
+export {fetchingApi,appendToHome,playVideo,appendToSide,fetchApi2}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #container{
+        display: grid;
+        width: 78%;
+        grid-template-columns: 53% 22%;
+        grid-template-rows: repeat(auto,auto);
+        gap: 3%;
+        margin: auto;
+    }
+    #container>#left-news_content{
+        /* margin: auto; */
+        text-align: left;
+    }
+    #container>#left-news_content>div>img{
+        height: 4%;
+        width: 100%;
+    }
+    #aid_upper{
+        display: block;
+        margin: auto;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    #right_upper{
+        height: 2.7%;
+        width: 100%;
+    }
+</style>
+<body>
+    <img id="aid_upper" src="https://tpc.googlesyndication.com/simgad/11362173984675090538" alt="Aid_s" />
+    <div id="container">
+        <div id="left-news_content">
+            <h2 id="head">THE BIG STORY</h2>
+        </div>
+        <div id="right-news_content">
+            <div>
+                <img id="right_upper" src="https://tpc.googlesyndication.com/simgad/2635120488604611906" alt="aid_logo">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script >
+    
+        let newsArr = JSON.parse(localStorage.getItem('newsBank'));
+        console.log(newsArr);
+
+
+
+
+let playVideo = () =>{
+        let container = document.getElementById('left-news_content');
+        
+        let div = document.createElement('div');
+
+        let h2 = document.createElement('h1');
+        h2.innerText = newsArr.title;
+
+        let p1 = document.createElement('p');
+        p1.innerText = newsArr.description;
+
+        let p2 = document.createElement('p');
+        p2.innerText = 'July 21, 2022 13:24:39 IST';
+
+        let image = document.createElement('img');
+        image.setAttribute('id','screen');
+        image.src = newsArr.urlToImage;
+        
+        let p = document.createElement('p');
+        p.innerText = newsArr.description;
+
+        let p3 = document.createElement('p');
+        p3.innerText = '    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit temporibus corrupti totam excepturi maiores nulla doloremque consequuntur et ipsum ipsam! Fugit neque doloribus sunt beatae incidunt, maiores non impedit minima fuga? Fugit architecto sequi adipisci cumque, mollitia nostrum id odio praesentium delectus ipsum, quidem consequatur, ratione consequuntur! Fugiat, quo blanditiis.';
+        
+        let p4 = document.createElement('p');
+        p4.innerText = '    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit temporibus corrupti totam excepturi maiores nulla doloremque consequuntur et ipsum ipsam! Fugit neque doloribus sunt beatae incidunt, maiores non impedit minima fuga? Fugit architecto sequi adipisci cumque, mollitia nostrum id odio praesentium delectus ipsum, quidem consequatur, ratione consequuntur! Fugiat, quo blanditiis.';
+        
+        let p5 = document.createElement('p');
+        p5.innerText = '    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit temporibus corrupti totam excepturi maiores nulla doloremque consequuntur et ipsum ipsam! Fugit neque doloribus sunt beatae incidunt, maiores non impedit minima fuga? Fugit architecto sequi adipisci cumque, mollitia nostrum id odio praesentium delectus ipsum, quidem consequatur, ratione consequuntur! Fugiat, quo blanditiis.';
+        
+        let p6 = document.createElement('p');
+        p6.innerText = '    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit temporibus corrupti totam excepturi maiores nulla doloremque consequuntur et ipsum ipsam! Fugit neque doloribus sunt beatae incidunt, maiores non impedit minima fuga? Fugit architecto sequi adipisci cumque, mollitia nostrum id odio praesentium delectus ipsum, quidem consequatur, ratione consequuntur! Fugiat, quo blanditiis.';
+
+        let image2 = document.createElement('img');
+        image2.src = 'https://images.firstpost.com/wp-content/uploads/2017/05/India-China-border_Reuters1.jpg?impolicy=website&width=640&height=363'
+
+        let p7 = document.createElement('p');
+        p7.innerText = '    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit temporibus corrupti totam excepturi maiores nulla doloremque consequuntur et ipsum ipsam! Fugit neque doloribus sunt beatae incidunt, maiores non impedit minima fuga? Fugit architecto sequi adipisci cumque, mollitia nostrum id odio praesentium delectus ipsum, quidem consequatur, ratione consequuntur! Fugiat, quo blanditiis.';
+        
+        let p8 = document.createElement('p');
+        p8.innerText = '    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit temporibus corrupti totam excepturi maiores nulla doloremque consequuntur et ipsum ipsam! Fugit neque doloribus sunt beatae incidunt, maiores non impedit minima fuga? Fugit architecto sequi adipisci cumque, mollitia nostrum id odio praesentium delectus ipsum, quidem consequatur, ratione consequuntur! Fugiat, quo blanditiis.';
+        
+        let p9 = document.createElement('p');
+        p9.innerText = '    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit temporibus corrupti totam excepturi maiores nulla doloremque consequuntur et ipsum ipsam! Fugit neque doloribus sunt beatae incidunt, maiores non impedit minima fuga? Fugit architecto sequi adipisci cumque, mollitia nostrum id odio praesentium delectus ipsum, quidem consequatur, ratione consequuntur! Fugiat, quo blanditiis.';
+        
+        let p10 = document.createElement('p');
+        p10.innerText = '    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit temporibus corrupti totam excepturi maiores nulla doloremque consequuntur et ipsum ipsam! Fugit neque doloribus sunt beatae incidunt, maiores non impedit minima fuga? Fugit architecto sequi adipisci cumque, mollitia nostrum id odio praesentium delectus ipsum, quidem consequatur, ratione consequuntur! Fugiat, quo blanditiis.';
+        
+         div.append(h2,p1,p2,image,p,p3,p4,p5,p6,image2,p7,p8,p9,p10);
+
+        container.append(div);
+    }
+    playVideo();
+
+
+
+</script>
