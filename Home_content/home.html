@@ -1,0 +1,163 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIVE updates, Latest News, Breaking News, Bollywood, Business and Political News – Firstpost</title>
+    <link rel="shortcut icon prefetch" href="https://www.firstpost.com/static/images/favicon.ico?v=6.76" />
+</head>
+<style>
+    
+    #head{
+        text-align: center;
+        padding-bottom: 6px;
+        border-bottom: 1px solid grey;
+    }
+    #home-tank{
+       
+        display: grid;
+        width: 78%;
+        grid-template-columns: 53% 22%;
+        grid-template-rows: repeat(auto,auto);
+        gap: 3%;
+        margin: auto;
+        margin-left: 300px;
+    }
+    #home-tank>#left-tank{
+        /* margin: auto; */
+        text-align: center;
+    }
+    #home-tank>#left-tank>div>img{
+        height: 4%;
+        width: 100%;
+    }
+    #news_cards{
+   position:relative;
+   margin-top: -50px;
+   margin-left: 20px;
+   padding: 10px;
+   background-color: white;
+    }
+    #trending{
+        text-align: left;
+        border-bottom: 2px solid orange;
+    }
+    #news{
+        border: 1px solid grey;
+    }
+    #news>h2{
+        position: relative;
+        margin-top: -70px;
+        padding-left: 30px;
+    }
+    #news>p{
+        padding: 2px 8px 2px 8px;
+    }
+    .logo_style{
+        width: 100%;
+        height: 3%;
+        margin-bottom: 50px;
+    }
+    #aid_upper{
+        display: block;
+        margin: auto;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    #right_upper{
+        height: 2.7%;
+        width: 100%;
+    }
+    #right-tank>div:nth-child(2){
+        border: 1px solid grey;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding: 10px 10px 10px 10px;
+    }
+    #right-tank>div:nth-child(2)>p:nth-child(1){
+        font-size: larger;
+        font-weight: 700;
+    }
+    #right-tank>div:nth-child(2)>p:nth-child(2){
+        font-size: 14px;
+         color: grey;
+    }
+    #putYOurEmail{
+        width: 100%;
+        margin-top: 7px;
+        margin-bottom: 7px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    #right-tank>div:nth-child(2)>button{
+     background-color: #FAD65F;
+    padding: 8px 23px 8px 22px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 7px;
+    }
+    .title-txt{
+    font: 900 Italic 20px/45px Arial;
+    color: #000;
+    padding-bottom: -10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+    border-bottom: 4px solid orange;
+    }
+</style> 
+    
+<body>
+    <img id="aid_upper" src="https://tpc.googlesyndication.com/simgad/11362173984675090538" alt="Aid_s" />
+    <div id="home-tank">
+        <div id="left-tank">
+            <h2 id="head">THE BIG STORY</h2>
+            <img name="slide" height="3%" width="100%" style="margin-bottom: 30px;">
+            <img  id="error_img"/>
+        </div>
+        <div id="right-tank">
+            <div>
+                <img id="right_upper" src="https://tpc.googlesyndication.com/simgad/2635120488604611906" alt="aid_logo">
+            </div>
+            <div>
+                <p>Subscribe to our foreign policy newsletter</p>
+                <p>Sign up for a weekly curated briefing of the most important strategic affairs stories from across the world.</p>
+                <div>Email Address</div>
+                <input type="email" id="putYOurEmail" placeholder="Enter your email"  />
+                <button>Subscribe</button>
+            </div>
+            <h3 class="title-txt">Most Read</h3>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="./scripts/home.js" type="module"></script>
+
+<script>
+     let i=0;
+ let images = [];
+ let time = 3000;
+ images[0] = 'https://images.firstpost.com/wp-content/uploads/fpranking/1658372288845.jpg';
+ images[1] = 'https://images.firstpost.com/wp-content/uploads/fpranking/165837163152.jpg';
+ images[2] = 'https://images.firstpost.com/wp-content/uploads/fpranking/1658373015765.jpg';
+ images[3] = 'https://images.firstpost.com/wp-content/uploads/fpranking/1658373015520.jpg';
+ images[4] = 'https://images.firstpost.com/wp-content/uploads/fpranking/1658373015176.jpg';
+ 
+ function changeImg(){
+     document.slide.src = images[i];
+ 
+     if(i<images.length -1){
+         i++;
+     } else{
+         i=0;
+     }
+     setTimeout("changeImg()",time);
+ }
+ changeImg();
+ window.onload = changeImg;
+</script>
