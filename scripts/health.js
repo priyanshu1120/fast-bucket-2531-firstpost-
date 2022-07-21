@@ -40,19 +40,19 @@ let obj = [
   {
     image_url:
       "https://www.firstpost.com/wp-content/uploads/2022/07/Tata-lost-the-number-2-position-to-Hyundai-in-June-planning-to-offer-huge-discounts-in-July.jpg?impolicy=website&width=640&height=362",
-    cate: "auto",
+    cate: "Health",
     tab: "Tata lost the number 2 position to Hyundai in June, planning to offer huge discounts in July",
   },
   {
     image_url:
       "https://images.firstpost.com/wp-content/uploads/2022/06/2022-Maruti-Suzuki-Brezza-1.jpg?impolicy=website&width=640&height=363",
-    cate: "auto",
+    cate: "Health",
     tab: "'2022 Maruti Suzuki Brezza launched in India, priced from Rs 7.99 lakh",
   },
   {
     image_url:
       "https://www.firstpost.com/wp-content/uploads/2022/07/The-government-is-planning-an-electric-highway-between-Delhi-and-Mumbai_-Nitin-Gadkari.jpg?impolicy=website&width=640&height=362",
-    cate: "auto",
+    cate: "Health",
     tab: "The government is planning an electric highway between Delhi and Mumbai: Nitin Gadkari",
   },
 ];
