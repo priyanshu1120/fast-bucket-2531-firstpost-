@@ -22,7 +22,7 @@ let autoData = JSON.parse(localStorage.getItem("news"));
 
 let auto_explore = () => {
   let container = document.getElementById("newone");
-  explore_details(autoData, container, "India");
+  explore_details(autoData, container, "World");
 };
 auto_explore();
 
@@ -38,7 +38,7 @@ let autoNews = async () => {
   console.log(data.articles);
   let container = document.getElementById("relatedNews");
   container.innerHTML = null;
-  newsDisplayData(data.articles, container, "auto");
+  newsDisplayData(data.articles, container, "World");
 };
 
 autoNews();

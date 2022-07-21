@@ -11,12 +11,12 @@ let cc = "health";
 let autoNews = async () => {
   // let url =`https://newsapi.org/v2/everything?q=general&from=2022-07-19&to=2022-07-19&sortBy=popularity&apiKey=dfec4f3db9ce45279d598a21cd4d6366`
 
-  let url = `https://newsapi.org/v2/top-headlines?country=${c}&pageSize=20&apiKey=${key}`;
+  let url = `https://newsapi.org/v2/top-headlines?sources=bbc-news&pageSize=20&apiKey=${key}`;
   let data = await newsData(url);
   console.log(data.articles);
   let container = document.getElementById("newone");
   container.innerHTML = null;
-  newsDisplayData(data.articles, container, "India");
+  newsDisplayData(data.articles, container, "World");
 };
 
 autoNews();
@@ -40,19 +40,19 @@ let obj = [
   {
     image_url:
       "https://www.firstpost.com/wp-content/uploads/2022/07/Tata-lost-the-number-2-position-to-Hyundai-in-June-planning-to-offer-huge-discounts-in-July.jpg?impolicy=website&width=640&height=362",
-    cate: "India",
+    cate: "World",
     tab: "Tata lost the number 2 position to Hyundai in June, planning to offer huge discounts in July",
   },
   {
     image_url:
       "https://images.firstpost.com/wp-content/uploads/2022/06/2022-Maruti-Suzuki-Brezza-1.jpg?impolicy=website&width=640&height=363",
-    cate: "India",
+    cate: "World",
     tab: "'2022 Maruti Suzuki Brezza launched in India, priced from Rs 7.99 lakh",
   },
   {
     image_url:
       "https://www.firstpost.com/wp-content/uploads/2022/07/The-government-is-planning-an-electric-highway-between-Delhi-and-Mumbai_-Nitin-Gadkari.jpg?impolicy=website&width=640&height=362",
-    cate: "India",
+    cate: "World",
     tab: "The government is planning an electric highway between Delhi and Mumbai: Nitin Gadkari",
   },
 ];

@@ -154,7 +154,7 @@ let explore_details = (data, cont, catagory) => {
 let DetailNews = ({ urlToImage, title, description }) => {
   let arr = [{ urlToImage, title, description }];
   localStorage.setItem("news", JSON.stringify(arr));
-  window.location.href = "./indiaexplore.html";
+  window.location.href = "./worldexplore.html";
 };
 
 export {
