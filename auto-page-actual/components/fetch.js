@@ -49,9 +49,9 @@ let newsDisplayData = (data, cont, catagory,a) => {
   });
 };
 
-let newsSideDisplayData = (data, cont) => {
+let newsSideDisplayData = (data, cont,a) => {
   let count = 1;
-  data.forEach(({ title, description }) => {
+  data.forEach(({ urlToImage,title, description }) => {
     let div = document.createElement("div");
     div.setAttribute("id", "side_news");
 
@@ -70,9 +70,10 @@ let newsSideDisplayData = (data, cont) => {
 
     Title.innerText = title;
     Description.innerText = description;
-
+    let link = a;
     div.addEventListener("click", () => {
       DetailNews({ urlToImage, title, description });
+      window.location.href=link;
     });
     div.append(Title, Description);
     cont.append(div);

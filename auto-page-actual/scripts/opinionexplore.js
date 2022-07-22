@@ -24,7 +24,7 @@ import {
     let container = document.getElementById("newone");
     explore_details(autoData, container, "Opinion");
   };
-  auto_explore();
+
   
   let key = "bb025f8cfd2d42748f38ba6ab456f616";
   let c = "in";
@@ -38,7 +38,7 @@ import {
     console.log(data.articles);
     let container = document.getElementById("relatedNews");
     container.innerHTML = null;
-    newsDisplayData(data.articles, container, "Opinion");
+    newsDisplayData(data.articles, container, "Opinion","opinionExplore.html");
   };
   
   autoNews();
@@ -50,7 +50,9 @@ import {
     console.log(data.articles);
     let container = document.getElementById("right_sidebar_news");
     container.innerHTML = null;
-    newsSideDisplayData(data.articles, container);
+    newsSideDisplayData(data.articles, container,"opinionExplore.html");
   };
   sideNews();
+
+  auto_explore();
   
