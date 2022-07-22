@@ -41,19 +41,19 @@ let obj = [
     image_url:
       "https://www.businessinsider.in/photo/93056828/the-1st-us-polio-case-in-9-years-left-a-man-paralyzed-it-could-have-been-avoided-with-vaccination-experts-say-.jpg?imgsize=103688",
     cate: "Health",
-    tab: "The 1st US polio case in 9 years left a man paralyzed. It could have been avoided with vaccination, experts sa - Business Insider India",
+    tab: "The 1st US polio case in 9 years left a man paralyzed. It could have been avoided with vaccination, experts sa",
   },
   {
     image_url:
       "https://cdn.siasat.com/wp-content/uploads/2022/07/IMG_20220722_193610_1200_x_900_pixel.jpg",
     cate: "Health",
-    tab: "Third in Gulf, Qatar reports first case of monkeypox - The Siasat Daily",
+    tab: "Third in Gulf, Qatar reports first case of monkeypox",
   },
   {
     image_url:
       "https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2022/06/eat_and_calculate_cholesterol_ratios_732x549_thumb.jpg",
     cate: "Health",
-    tab: "Cholesterol ratios: How to calculate them - Medical News Today",
+    tab: "Cholesterol ratios: How to calculate them",
   },
 ];
 
