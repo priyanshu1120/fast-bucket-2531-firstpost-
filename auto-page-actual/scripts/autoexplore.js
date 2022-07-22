@@ -28,17 +28,17 @@ auto_explore();
 
 let key = "bb025f8cfd2d42748f38ba6ab456f616";
 let c = "in";
-let cc = "technology";
+let cc = "business";
 let autoNews = async () => {
   // let url =`https://newsapi.org/v2/everything?q=general&from=2022-07-19&to=2022-07-19&sortBy=popularity&apiKey=dfec4f3db9ce45279d598a21cd4d6366`
 
-  let url = `https://newsapi.org/v2/top-headlines?country=${c}&category=${cc}&pageSize=2&apiKey=${key}`;
+  let url = `https://newsapi.org/v2/top-headlines?country=${c}&category=${cc}&pageSize=4&apiKey=${key}`;
 
   let data = await newsData(url);
   console.log(data.articles);
   let container = document.getElementById("relatedNews");
   container.innerHTML = null;
-  newsDisplayData(data.articles, container, "auto");
+  newsDisplayData(data.articles, container, "auto","./autoExplore.html");
 };
 
 autoNews();

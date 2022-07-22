@@ -16,7 +16,7 @@ let newsData = async (url) => {
   return data;
 };
 
-let newsDisplayData = (data, cont, catagory) => {
+let newsDisplayData = (data, cont, catagory,a) => {
   data.forEach(({ urlToImage, title, description }) => {
     let div = document.createElement("div");
     div.setAttribute("class", "A_news");
@@ -37,9 +37,10 @@ let newsDisplayData = (data, cont, catagory) => {
     }
     Title.innerText = title;
     Description.innerText = description;
-
+    let link = a;
     div.addEventListener("click", () => {
-      DetailNews({ urlToImage, title, description });
+      DetailNews({ urlToImage, title, description});
+      window.location.href= link;
     });
 
     contentdiv.append(Catagory, Title, Description);
@@ -79,7 +80,7 @@ let newsSideDisplayData = (data, cont) => {
 };
 
 let explore_details = (data, cont, catagory) => {
-  data.forEach(({ urlToImage, title, description }) => {
+  data.forEach(({ urlToImage, title, description}) => {
     let div = document.createElement("div");
     div.setAttribute("class", "A_news");
     let Catagory = document.createElement("h3");
@@ -151,10 +152,10 @@ let explore_details = (data, cont, catagory) => {
   });
 };
 
-let DetailNews = ({ urlToImage, title, description }) => {
+let DetailNews = ({ urlToImage, title, description}) => {
   let arr = [{ urlToImage, title, description }];
   localStorage.setItem("news", JSON.stringify(arr));
-  window.location.href = "./autoExplore.html";
+  
 };
 
 export {
