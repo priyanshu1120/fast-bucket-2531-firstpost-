@@ -39,21 +39,21 @@ temp1.addEventListener("click", () => {
 let obj = [
   {
     image_url:
-      "https://www.firstpost.com/wp-content/uploads/2022/07/Tata-lost-the-number-2-position-to-Hyundai-in-June-planning-to-offer-huge-discounts-in-July.jpg?impolicy=website&width=640&height=362",
+      "https://ichef.bbci.co.uk/news/1024/branded_news/06F5/production/_126018710_gettyimages-1410149911.jpg",
     cate: "World",
-    tab: "Tata lost the number 2 position to Hyundai in June, planning to offer huge discounts in July",
+    tab: "Steve Bannon: Jury finds Trump ally guilty of contempt of Congress",
   },
   {
     image_url:
-      "https://images.firstpost.com/wp-content/uploads/2022/06/2022-Maruti-Suzuki-Brezza-1.jpg?impolicy=website&width=640&height=363",
+      "https://ichef.bbci.co.uk/news/1024/branded_news/3323/production/_126019031_mediaitem126017064.jpg",
     cate: "World",
-    tab: "'2022 Maruti Suzuki Brezza launched in India, priced from Rs 7.99 lakh",
+    tab: "Ukraine war: Deal signed to allow grain exports to resume by sea",
   },
   {
     image_url:
-      "https://www.firstpost.com/wp-content/uploads/2022/07/The-government-is-planning-an-electric-highway-between-Delhi-and-Mumbai_-Nitin-Gadkari.jpg?impolicy=website&width=640&height=362",
+      "https://ichef.bbci.co.uk/news/1024/branded_news/73F1/production/_126018692_gettyimages-1408313524.jpg",
     cate: "World",
-    tab: "The government is planning an electric highway between Delhi and Mumbai: Nitin Gadkari",
+    tab: "Biden's doctor: President's Covid symptoms 'have improved'",
   },
 ];
 
