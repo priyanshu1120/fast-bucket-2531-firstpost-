@@ -39,21 +39,21 @@ temp1.addEventListener("click", () => {
 let obj = [
   {
     image_url:
-      "https://www.firstpost.com/wp-content/uploads/2022/07/Tata-lost-the-number-2-position-to-Hyundai-in-June-planning-to-offer-huge-discounts-in-July.jpg?impolicy=website&width=640&height=362",
+      "https://www.businessinsider.in/photo/93056828/the-1st-us-polio-case-in-9-years-left-a-man-paralyzed-it-could-have-been-avoided-with-vaccination-experts-say-.jpg?imgsize=103688",
     cate: "Health",
-    tab: "Tata lost the number 2 position to Hyundai in June, planning to offer huge discounts in July",
+    tab: "The 1st US polio case in 9 years left a man paralyzed. It could have been avoided with vaccination, experts sa - Business Insider India",
   },
   {
     image_url:
-      "https://images.firstpost.com/wp-content/uploads/2022/06/2022-Maruti-Suzuki-Brezza-1.jpg?impolicy=website&width=640&height=363",
+      "https://cdn.siasat.com/wp-content/uploads/2022/07/IMG_20220722_193610_1200_x_900_pixel.jpg",
     cate: "Health",
-    tab: "'2022 Maruti Suzuki Brezza launched in India, priced from Rs 7.99 lakh",
+    tab: "Third in Gulf, Qatar reports first case of monkeypox - The Siasat Daily",
   },
   {
     image_url:
-      "https://www.firstpost.com/wp-content/uploads/2022/07/The-government-is-planning-an-electric-highway-between-Delhi-and-Mumbai_-Nitin-Gadkari.jpg?impolicy=website&width=640&height=362",
+      "https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2022/06/eat_and_calculate_cholesterol_ratios_732x549_thumb.jpg",
     cate: "Health",
-    tab: "The government is planning an electric highway between Delhi and Mumbai: Nitin Gadkari",
+    tab: "Cholesterol ratios: How to calculate them - Medical News Today",
   },
 ];
 
