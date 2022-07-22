@@ -39,21 +39,21 @@ temp1.addEventListener("click", () => {
 let obj = [
   {
     image_url:
-      "https://www.firstpost.com/wp-content/uploads/2022/07/Tata-lost-the-number-2-position-to-Hyundai-in-June-planning-to-offer-huge-discounts-in-July.jpg?impolicy=website&width=640&height=362",
+      "https://c.ndtvimg.com/2022-07/02v36v4c_ed-cash-seized_625x300_22_July_22.jpg",
     cate: "India",
-    tab: "Tata lost the number 2 position to Hyundai in June, planning to offer huge discounts in July",
+    tab: "Rs 20 Crore Cash Seized After Raids On West Bengal Minister Partha Chatterjee's Aide",
   },
   {
     image_url:
-      "https://images.firstpost.com/wp-content/uploads/2022/06/2022-Maruti-Suzuki-Brezza-1.jpg?impolicy=website&width=640&height=363",
+      "https://images.livemint.com/img/2022/07/22/600x338/Vodafone_Idea_1658502063138_1658502063391_1658502063391.jpg",
     cate: "India",
-    tab: "'2022 Maruti Suzuki Brezza launched in India, priced from Rs 7.99 lakh",
+    tab: "Vodafone Idea CEO Ravinder Takkar to step down, CFO Akshaya Moondra to be elevated",
   },
   {
     image_url:
-      "https://www.firstpost.com/wp-content/uploads/2022/07/The-government-is-planning-an-electric-highway-between-Delhi-and-Mumbai_-Nitin-Gadkari.jpg?impolicy=website&width=640&height=362",
+      "https://static.toiimg.com/thumb/msid-93059139,width-1070,height-580,imgsize-93620,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
     cate: "India",
-    tab: "The government is planning an electric highway between Delhi and Mumbai: Nitin Gadkari",
+    tab: "Ukraine, Russia sign deal to reopen grain export ports as war rages on",
   },
 ];
 
