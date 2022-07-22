@@ -21,7 +21,7 @@ let appendToHome=(data,contain)=> {
         let img = document.createElement('img');
         img.src = image_url;
         console.log(img.src);
-        if(img.src == 'http://127.0.0.1:5501/fast-bucket-2531-firstpost-/politics_content/null'){
+        if(img.src == 'http://127.0.0.1:5501/fast-bucket-2531-firstpost-/politics_content/null' || img.src == 'http://127.0.0.1:5500/fast-bucket-2531-firstpost-/politics_content/null'){
             img.src = `https://www.scrolldroll.com/wp-content/uploads/2020/12/Narendra-Modi-Meme-Templates-Waah-Modi-Ji-Waah.jpg`;
         }
 
