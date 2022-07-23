@@ -4,6 +4,18 @@ import {
   newsDisplayData,
   newsSideDisplayData,
 } from "../components/fetch.js";
+import { navbar, sidebar, category } from "../components/navbar.js";
+
+let nav = document.getElementById("navbar");
+nav.innerHTML = navbar();
+
+let side = document.getElementById("sidemenu");
+side.innerHTML = sidebar();
+
+let cat = document.getElementById("category");
+cat.innerHTML = category();
+
+// nav
 
 let key = "44e0c93e86de472dab37ad046e8a4e43";
 let c = "in";
