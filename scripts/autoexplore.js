@@ -53,3 +53,7 @@ let sideNews = async () => {
   newsSideDisplayData(data.articles, container);
 };
 sideNews();
+
+
+import {footer} from "../components/footer.js"
+document.getElementById("footer_dum").innerHTML=footer();
