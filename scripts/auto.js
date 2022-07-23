@@ -112,7 +112,7 @@ let sideNews = async () => {
   console.log(data.articles);
   let container = document.getElementById("right_sidebar_news");
   container.innerHTML = null;
-  newsSideDisplayData(data.articles, container);
+  newsSideDisplayData(data.articles, container,"./autoExplore.html");
 };
 sideNews();
 

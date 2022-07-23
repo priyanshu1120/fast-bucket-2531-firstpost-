@@ -11,6 +11,10 @@ import {
 import {navbar,sidebar,category} from "../components/navbar.js";
 
 
+import {footer} from "../components/footer.js"
+document.getElementById("footer_dum").innerHTML=footer();
+
+
 document.getElementById("navbar").innerHTML =navbar();
 let side = document.getElementById("sidemenu");
 side.innerHTML=sidebar();
@@ -38,7 +42,7 @@ let auto_explore = () => {
   let container = document.getElementById("newone");
   explore_details(autoData, container, "auto");
 };
-auto_explore();
+
 
 let key = "76211eabc2274931b21c2df65860de1b";
 let c = "in";
@@ -64,10 +68,9 @@ let sideNews = async () => {
   console.log(data.articles);
   let container = document.getElementById("right_sidebar_news");
   container.innerHTML = null;
-  newsSideDisplayData(data.articles, container);
+  newsSideDisplayData(data.articles, container,"./autoExplore.html");
 };
 sideNews();
+auto_explore();
 
 
-import {footer} from "../components/footer.js"
-document.getElementById("footer_dum").innerHTML=footer();
