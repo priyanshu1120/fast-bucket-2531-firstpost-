@@ -8,15 +8,15 @@ import {
   // <-----------------navbar --------------------------->
 
 
-// import {navbar,sidebar,category} from "../components/navbar.js";
+import {navbar,sidebar,category} from "../components/navbar.js";
 
 
-// document.getElementById("navbar").innerHTML =navbar();
-// let side = document.getElementById("sidemenu");
-// side.innerHTML=sidebar();
+document.getElementById("navbar").innerHTML =navbar();
+let side = document.getElementById("sidemenu");
+side.innerHTML=sidebar();
 
-// let cat = document.getElementById("category_navbar");
-// cat.innerHTML=category();
+let cat = document.getElementById("category_navbar");
+cat.innerHTML=category();
 
 
 // <------------------------footer--------------------------------->
