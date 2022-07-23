@@ -6,6 +6,21 @@ import {
   explore_details,
 } from "../components/fetch.js";
 
+// -------------------------------------------
+
+import { navbar, sidebar, category } from "../components/navbar.js";
+
+let nav = document.getElementById("navbar");
+nav.innerHTML = navbar();
+
+let side = document.getElementById("sidemenu");
+side.innerHTML = sidebar();
+
+let cat = document.getElementById("category");
+cat.innerHTML = category();
+
+//----------------------------------------------
+
 document.getElementById("subscribe-box").innerHTML = subscribe();
 let temp1 = document.getElementById("subscribe_btn");
 temp1.addEventListener("click", () => {
