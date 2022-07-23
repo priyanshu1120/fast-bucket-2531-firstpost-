@@ -21,9 +21,8 @@ import {
 
 // <------------------------footer--------------------------------->
 
-// import {footer} from "../components/footer.js"
-
-// document.getElementById("footer_page_dynamic").innerHTML=footer();
+import {footer} from "../components/footer.js"
+document.getElementById("footer_dum").innerHTML=footer();
 
 
 
