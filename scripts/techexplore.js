@@ -24,7 +24,7 @@ let auto_explore = () => {
   let container = document.getElementById("newone");
   explore_details(autoData, container, "auto");
 };
-auto_explore();
+
 
 let key = "f5453f400af841a5aacc163b4548cd09";
 let c = "in";
@@ -38,7 +38,7 @@ let autoNews = async () => {
   console.log(data.articles);
   let container = document.getElementById("relatedNews");
   container.innerHTML = null;
-  newsDisplayData(data.articles, container, "auto");
+  newsDisplayData(data.articles, container, "tech","./techexplore.html");
 };
 
 autoNews();
@@ -50,6 +50,10 @@ let sideNews = async () => {
   console.log(data.articles);
   let container = document.getElementById("right_sidebar_news");
   container.innerHTML = null;
-  newsSideDisplayData(data.articles, container);
+  newsSideDisplayData(data.articles, container,"./techexplore.html");
 };
 sideNews();
+auto_explore();
+
+import {footer} from "../components/footer.js"
+document.getElementById("footer_dum").innerHTML=footer();

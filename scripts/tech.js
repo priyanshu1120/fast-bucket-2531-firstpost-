@@ -16,7 +16,7 @@ let autoNews = async () => {
   console.log(data.articles);
   let container = document.getElementById("newone");
   container.innerHTML = null;
-  newsDisplayData(data.articles, container, "Technology");
+  newsDisplayData(data.articles, container, "Technology" ,"./techexplore.html");
 };
 
 autoNews();
@@ -96,7 +96,7 @@ let sideNews = async () => {
   console.log(data.articles);
   let container = document.getElementById("right_sidebar_news");
   container.innerHTML = null;
-  newsSideDisplayData(data.articles, container);
+  newsSideDisplayData(data.articles, container,"./techexplore.html");
 };
 sideNews();
 
@@ -108,3 +108,6 @@ document.getElementById("xyz").addEventListener("click", refreshPAge);
 document.getElementById("xya").addEventListener("click", refreshPAge);
 document.getElementById("xyb").addEventListener("click", refreshPAge);
 document.getElementById("xyc").addEventListener("click", refreshPAge);
+
+import {footer} from "../components/footer.js"
+document.getElementById("footer_dum").innerHTML=footer();
