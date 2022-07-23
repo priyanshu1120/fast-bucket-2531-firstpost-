@@ -68,24 +68,33 @@ function sidebar() {
     </div>
      <div id="all-pages">
       <div class="abcd"><a href="home.html"><h6>Home</h6></a></div>
+
       <div class="abcd"><a href="health.html"><h6>Health</h6></a></div>
+
       <div class="abcd"><a href="india.html"><h6>India</h6></a></div>
 
       <div class="abcd"><a href=""><h6>Home</h6></a></div>
+
       <div class="abcd"><a href=""><h6>Politics</h6></a></div>
 
       <div class="abcd"><a href=""><h6>Auto</h6></a></div>
 
       <div class="abcd"><a href=""><h6>Opinion</h6></a></div>
       
-      <div class="abcd"><a href="">Sports</a></div>
+      <div class="abcd"><a href=""><h6>Sports</h6></a></div>
 
       <div class="abcd"><a href=""><h6>Cricket</h6></a></div>
-<div class="abcd"><a href=""><h6>Entertainment</h6></a></div>
-<div class="abcd"><a href=""><h6>Tech</h6></a></div>
-<div class="abcd"><a href=""><h6>Photos</h6></a></div>
-<div class="abcd"><a href=""><h6>Videos</h6></a></div>
-<div class="abcd"><a href=""><h6>Bussiness</h6></a></div>
+
+      <div class="abcd"><a href=""><h6>Entertainment</h6></a></div>
+
+      <div class="abcd"><a href=""><h6>Tech</h6></a></div>
+
+      <div class="abcd"><a href=""><h6>Photos</h6></a></div>
+
+      <div class="abcd"><a href=""><h6>Videos</h6></a></div>
+
+      <div class="abcd"><a href=""><h6>Bussiness</h6></a></div>
+      
      </div>
 
 
@@ -124,17 +133,36 @@ function sidebar() {
 function category() {
   return ` <div id="category1">
 
-  
-  <p class="change-color">Health |</p>
-<p class="change-color">India |</p>
-<p class="change-color">World |</p>
-<p class="change-color">Politics |</p>
-<p class="change-color">Auto |</p>
-<p class="change-color">Opinion |</p>
-<p class="change-color">Sports |</p>
-<p class="change-color">Cricket |</p>
-<p class="change-color">Entertainment |</p>
-<p class="change-color">Tech |</p>
+  <a href="health.html"><p class="change-color">Health |</p></a>
+
+  <a href="india.html"><p class="change-color">India |</p></a>
+
+  <a href=""><p class="change-color">World |</p></a>
+
+  <a href=""><p class="change-color">Politics |</p></a>
+
+  <a href=""><p class="change-color">Auto |</p></a>
+
+  <a href=""><p class="change-color">Opinion |</p></a>
+
+  <a href=""><p class="change-color">Sports |</p></a>
+
+  <a href=""><p class="change-color">Cricket |</p></a>
+
+  <a href=""><p class="change-color">Entertainment |</p></a>
+
+  <a href=""><p class="change-color">Tech |</p></a>
+
+
+
+
+
+
+
+
+
+
+
 </div>
 
 <div id="other-logo">
