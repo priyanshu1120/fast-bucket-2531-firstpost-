@@ -16,7 +16,7 @@ let autoNews = async () => {
   console.log(data.articles);
   let container = document.getElementById("newone");
   container.innerHTML = null;
-  newsDisplayData(data.articles, container, "India");
+  newsDisplayData(data.articles, container, "India", "./indiaexplore.html");
 };
 
 autoNews();
@@ -96,7 +96,7 @@ let sideNews = async () => {
   console.log(data.articles);
   let container = document.getElementById("right_sidebar_news");
   container.innerHTML = null;
-  newsSideDisplayData(data.articles, container);
+  newsSideDisplayData(data.articles, container, "./indiaexplore.html");
 };
 sideNews();
 
