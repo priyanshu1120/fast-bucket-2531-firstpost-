@@ -108,3 +108,5 @@ document.getElementById("xyz").addEventListener("click", refreshPAge);
 document.getElementById("xya").addEventListener("click", refreshPAge);
 document.getElementById("xyb").addEventListener("click", refreshPAge);
 document.getElementById("xyc").addEventListener("click", refreshPAge);
+import { footer } from "../components/footer.js";
+document.getElementById("footer_dum").innerHTML = footer();
