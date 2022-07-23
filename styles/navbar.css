@@ -142,7 +142,10 @@ h6 {
   text-align: center;
   padding: 10px;
   background-color: white;
+<<<<<<< HEAD
   z-index: 2;
+=======
+>>>>>>> ce650a42998cbd06ff01a687154697f7e4b4e199
   /* background-color: yellow; */
 }
 h6:hover {
@@ -202,4 +205,10 @@ div a {
 }
 .abcd a {
   color: black;
+}
+#container{
+  position: relative;
+  position: sticky;
+  top:0px;
+  z-index: 2;
 }
