@@ -24,7 +24,6 @@ let auto_explore = () => {
   let container = document.getElementById("newone");
   explore_details(autoData, container, "Health");
 };
-auto_explore();
 
 let key = "44e0c93e86de472dab37ad046e8a4e43";
 let c = "in";
@@ -38,7 +37,7 @@ let autoNews = async () => {
   console.log(data.articles);
   let container = document.getElementById("relatedNews");
   container.innerHTML = null;
-  newsDisplayData(data.articles, container, "Health");
+  newsDisplayData(data.articles, container, "Health", "./healthexplore.html");
 };
 
 autoNews();
@@ -50,6 +49,7 @@ let sideNews = async () => {
   console.log(data.articles);
   let container = document.getElementById("right_sidebar_news");
   container.innerHTML = null;
-  newsSideDisplayData(data.articles, container);
+  newsSideDisplayData(data.articles, container, "./healthexplore.html");
 };
 sideNews();
+auto_explore();
