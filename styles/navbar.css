@@ -136,6 +136,7 @@ h6 {
   align-items: center;
   text-align: center;
   padding: 10px;
+  background-color: white;
   /* background-color: yellow; */
 }
 h6:hover {
@@ -195,4 +196,10 @@ div a {
 }
 .abcd a {
   color: black;
+}
+#container{
+  position: relative;
+  position: sticky;
+  top:0px;
+  z-index: 2;
 }
