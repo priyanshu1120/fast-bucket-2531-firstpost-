@@ -21,13 +21,7 @@ let container = document.getElementById('right-tank');
 
 appendToSide(data2,container); 
 
-// import {fetchingApi} from "./politics_components/fetch&append.js"
 
-// let url = `https://newsdata.io/api/1/news?apikey=pub_94435419e232c95b6147294a05e7f0cef7b5&q=politics`;
-
-// let data = await fetchingApi(url); 
-
-// console.log(data);
 
 
 
