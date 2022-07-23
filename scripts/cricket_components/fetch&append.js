@@ -30,7 +30,7 @@ let appendToHome=(data,contain)=> {
 
         let trend = document.createElement('p'); 
         trend.setAttribute('id','trending');
-        trend.innerText = "POLITICS"; 
+        trend.innerText = "CRICKET"; 
 
         let tit = document.createElement('h3');
         tit.innerText = title;

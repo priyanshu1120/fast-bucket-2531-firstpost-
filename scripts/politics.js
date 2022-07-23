@@ -1,4 +1,15 @@
 
+import { navbar, sidebar, category } from "../components/navbar.js";
+
+let nav = document.getElementById("navbar");
+nav.innerHTML = navbar();
+
+let side = document.getElementById("sidemenu");
+side.innerHTML = sidebar();
+
+let cat = document.getElementById("category");
+cat.innerHTML = category();
+
 
 let api = `662aa30ca2b1499189f1cbba8cb46f5a`;
 
@@ -20,6 +31,9 @@ let data2 = await fetchApi2(url2);
 let container = document.getElementById('right-tank'); 
 
 appendToSide(data2,container); 
+
+import {footer} from "../components/footer.js";
+  document.getElementById("footer_dum").innerHTML = footer();
 
 
 

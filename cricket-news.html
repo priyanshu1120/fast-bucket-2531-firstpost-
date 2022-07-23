@@ -9,6 +9,7 @@
       rel="shortcut icon prefetch"
       href="https://www.firstpost.com/static/images/favicon.ico?v=6.76"
     />
+
 </head>
 <style>
     #container{
@@ -102,28 +103,33 @@
     }
 </style>
 <body>
-    <img id="aid_upper" src="https://tpc.googlesyndication.com/simgad/11362173984675090538" alt="Aid_s" />
-    <div id="container">
-        <div id="left-news_content"></div>
 
-        <div id="right-news_content">
-            <div>
-                <img id="right_upper" src="https://tpc.googlesyndication.com/simgad/2635120488604611906" alt="aid_logo" />
+    <div>
+
+        <img id="aid_upper" src="https://tpc.googlesyndication.com/simgad/11362173984675090538" alt="Aid_s" />
+        <div id="container">
+            <div id="left-news_content"></div>
+    
+            <div id="right-news_content">
+                <div>
+                    <img id="right_upper" src="https://tpc.googlesyndication.com/simgad/2635120488604611906" alt="aid_logo" />
+                </div>
+                <div>
+                    <p>Subscribe to our foreign policy newsletter</p>
+                    <p>
+                      Sign up for a weekly curated briefing of the most important
+                      strategic affairs stories from across the world.
+                    </p>
+                    <div>Email Address <span style="color: red">*</span></div>
+                    <input type="email" id="putYOurEmail" required />
+                    <button>Subscribe</button>
+                  </div>
+                  <h3 class="title-txt">Most Read</h3>
             </div>
-            <div>
-                <p>Subscribe to our foreign policy newsletter</p>
-                <p>
-                  Sign up for a weekly curated briefing of the most important
-                  strategic affairs stories from across the world.
-                </p>
-                <div>Email Address <span style="color: red">*</span></div>
-                <input type="email" id="putYOurEmail" required />
-                <button>Subscribe</button>
-              </div>
-              <h3 class="title-txt">Most Read</h3>
         </div>
+        <img id="aid_upper" src="https://tpc.googlesyndication.com/simgad/17993738890425371635" alt="Aid_s" />
     </div>
-    <img id="aid_upper" src="https://tpc.googlesyndication.com/simgad/17993738890425371635" alt="Aid_s" />
+
 </body>
 </html>
  
@@ -196,6 +202,8 @@ let playnews = () =>{
 
 
 <script type="module">
+
+
     import {fetchApi2,appendToSide} from './scripts/cricket_components/fetch&append.js';
 
     let api = `662aa30ca2b1499189f1cbba8cb46f5a`;
@@ -207,6 +215,7 @@ let playnews = () =>{
     let contain = document.getElementById('right-news_content');
 
     appendToSide(data,contain);
+
 
 </script>
 

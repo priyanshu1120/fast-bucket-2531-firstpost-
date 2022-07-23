@@ -139,7 +139,7 @@ function category() {
 
   <a href=""><p class="change-color">World |</p></a>
 
-  <a href=""><p class="change-color">Politics |</p></a>
+  <a href="politics.html"><p class="change-color">Politics |</p></a>
 
   <a href=""><p class="change-color">Auto |</p></a>
 
@@ -147,7 +147,7 @@ function category() {
 
   <a href=""><p class="change-color">Sports |</p></a>
 
-  <a href=""><p class="change-color">Cricket |</p></a>
+  <a href="cricket.html"><p class="change-color">Cricket |</p></a>
 
   <a href=""><p class="change-color">Entertainment |</p></a>
 
