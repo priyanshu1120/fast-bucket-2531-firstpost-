@@ -26,7 +26,7 @@ let auto_explore = () => {
 };
 
 
-let key = "f5453f400af841a5aacc163b4548cd09";
+let key = "76211eabc2274931b21c2df65860de1b";
 let c = "in";
 let cc = "Technology";
 let autoNews = async () => {
