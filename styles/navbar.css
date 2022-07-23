@@ -43,6 +43,7 @@
 .social-img {
   height: 27px;
   width: 27px;
+  border-radius: 50%;
   align-items: center;
   margin: auto;
   margin-left: 12px;

@@ -6,26 +6,26 @@ function navbar() {
 <div id="social-icons"><a href="https://www.facebook.com/firstpostin"
 ><img
 class="social-img"
-src="https://cdn-icons.flaticon.com/png/128/4494/premium/4494475.png?token=exp=1658326922~hmac=c8c6d55b2ffe58965810af2fa71246f9"
+src="./Images/facebook.png"
 alt=""
 /></a>
 <a href="https://twitter.com/firstpost"
 ><img
 class="social-img"
-src="https://cdn-icons.flaticon.com/png/128/4494/premium/4494477.png?token=exp=1658326922~hmac=7a2556e510482d5a5a665863b3ff6699"
+src="./Images/twitter.png"
 alt=""
 /></a>
 <a href="https://www.instagram.com/firstpost/"
 ><img
 class="social-img"
-src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png"
+src="./Images/instagram.png"
 alt=""
 /></a>
 <a
 href="https://www.youtube.com/channel/UCz8QaiQxApLq8sLNcszYyJw/featured"
 ><img
 class="social-img"
-src="https://cdn-icons-png.flaticon.com/128/187/187209.png"
+src="./Images/youtube.png"
 alt=""
 /></a></div>
 
@@ -73,21 +73,21 @@ function sidebar() {
 
       <div class="abcd"><a href="india.html"><h6>India</h6></a></div>
 
-      <div class="abcd"><a href=""><h6>Home</h6></a></div>
+      <div class="abcd"><a href="world.html"><h6>World</h6></a></div>
 
-      <div class="abcd"><a href=""><h6>Politics</h6></a></div>
+      <div class="abcd"><a href="politics.html"><h6>Politics</h6></a></div>
 
-      <div class="abcd"><a href=""><h6>Auto</h6></a></div>
+      <div class="abcd"><a href=auto.html"><h6>Auto</h6></a></div>
 
-      <div class="abcd"><a href=""><h6>Opinion</h6></a></div>
+      <div class="abcd"><a href="opinion.html"><h6>Opinion</h6></a></div>
       
-      <div class="abcd"><a href=""><h6>Sports</h6></a></div>
+      <div class="abcd"><a href="sports.html"><h6>Sports</h6></a></div>
 
-      <div class="abcd"><a href=""><h6>Cricket</h6></a></div>
+      <div class="abcd"><a href="cricket.html"><h6>Cricket</h6></a></div>
 
-      <div class="abcd"><a href=""><h6>Entertainment</h6></a></div>
+      <div class="abcd"><a href="entertainment.html"><h6>Entertainment</h6></a></div>
 
-      <div class="abcd"><a href=""><h6>Tech</h6></a></div>
+      <div class="abcd"><a href="tech.html"><h6>Tech</h6></a></div>
 
       <div class="abcd"><a href=""><h6>Photos</h6></a></div>
 
@@ -137,21 +137,21 @@ function category() {
 
   <a href="india.html"><p class="change-color">India |</p></a>
 
-  <a href=""><p class="change-color">World |</p></a>
+  <a href="world.html"><p class="change-color">World |</p></a>
 
   <a href="politics.html"><p class="change-color">Politics |</p></a>
 
-  <a href=""><p class="change-color">Auto |</p></a>
+  <a href="auto.html"><p class="change-color">Auto |</p></a>
 
-  <a href=""><p class="change-color">Opinion |</p></a>
+  <a href="opinion.html"><p class="change-color">Opinion |</p></a>
 
-  <a href=""><p class="change-color">Sports |</p></a>
+  <a href="sports.html"><p class="change-color">Sports |</p></a>
 
   <a href="cricket.html"><p class="change-color">Cricket |</p></a>
 
-  <a href=""><p class="change-color">Entertainment |</p></a>
+  <a href="entertainment.html"><p class="change-color">Entertainment |</p></a>
 
-  <a href=""><p class="change-color">Tech |</p></a>
+  <a href="tech.html"><p class="change-color">Tech |</p></a>
 
 
 
