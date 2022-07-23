@@ -111,3 +111,14 @@ document.getElementById("xyc").addEventListener("click", refreshPAge);
 
 import {footer} from "../components/footer.js"
 document.getElementById("footer_dum").innerHTML=footer();
+
+import { navbar, sidebar, category } from "../components/navbar.js";
+
+  let nav = document.getElementById("navbar");
+  nav.innerHTML = navbar();
+
+  let side = document.getElementById("sidemenu");
+  side.innerHTML = sidebar();
+
+  let cat = document.getElementById("category");
+  cat.innerHTML = category();
