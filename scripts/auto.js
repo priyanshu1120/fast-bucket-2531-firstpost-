@@ -5,6 +5,22 @@ import {
   newsSideDisplayData,
 } from "../components/fetch.js";
 
+// <------------------------------navbar page--------------------------->
+
+import {navbar,sidebar,category} from "../components/navbar.js";
+
+
+document.getElementById("navbar").innerHTML =navbar();
+let side = document.getElementById("sidemenu");
+side.innerHTML=sidebar();
+
+let cat = document.getElementById("category_navbar");
+cat.innerHTML=category();
+
+
+
+
+
 let key = "bb025f8cfd2d42748f38ba6ab456f616";
 let c = "in";
 let cc = "technology";
