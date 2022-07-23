@@ -5,7 +5,7 @@ import {
   newsSideDisplayData,
 } from "../components/fetch.js";
 
-let key = "f5453f400af841a5aacc163b4548cd09";
+let key = "d5f8c04745c84d2cb4a0ca2a57b2cbbf";
 let c = "in";
 let cc = "Entertainment";
 let autoNews = async () => {
@@ -111,3 +111,14 @@ document.getElementById("xyc").addEventListener("click", refreshPAge);
 
 import {footer} from "../components/footer.js"
 document.getElementById("footer_dum").innerHTML=footer();
+
+import { navbar, sidebar, category } from "../components/navbar.js";
+
+  let nav = document.getElementById("navbar");
+  nav.innerHTML = navbar();
+
+  let side = document.getElementById("sidemenu");
+  side.innerHTML = sidebar();
+
+  let cat = document.getElementById("category");
+  cat.innerHTML = category();
