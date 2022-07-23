@@ -1,6 +1,6 @@
 function navbar() {
   return `<div id="logo">
-  <a href="home.html"><img src="https://www.firstpost.com/static/images/fp-desk-logo.png" alt=""></a>
+  <a href="index.html"><img src="https://www.firstpost.com/static/images/fp-desk-logo.png" alt=""></a>
 </div>
 
 <div id="social-icons"><a href="https://www.facebook.com/firstpostin"
@@ -67,7 +67,7 @@ function sidebar() {
         </div>
     </div>
      <div id="all-pages">
-      <div class="abcd"><a href="home.html"><h6>Home</h6></a></div>
+      <div class="abcd"><a href="index.html"><h6>Home</h6></a></div>
 
       <div class="abcd"><a href="health.html"><h6>Health</h6></a></div>
 
