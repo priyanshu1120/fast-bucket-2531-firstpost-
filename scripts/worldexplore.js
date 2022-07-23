@@ -53,3 +53,6 @@ let sideNews = async () => {
 };
 sideNews();
 auto_explore();
+
+import { footer } from "../components/footer.js";
+document.getElementById("footer_dum").innerHTML = footer();
