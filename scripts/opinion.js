@@ -4,8 +4,37 @@ import {
     newsDisplayData,
     newsSideDisplayData,
   } from "../components/fetch.js";
+
+  // <-----------------navbar --------------------------->
+
+
+// import {navbar,sidebar,category} from "../components/navbar.js";
+
+
+// document.getElementById("navbar").innerHTML =navbar();
+// let side = document.getElementById("sidemenu");
+// side.innerHTML=sidebar();
+
+// let cat = document.getElementById("category_navbar");
+// cat.innerHTML=category();
+
+
+// <------------------------footer--------------------------------->
+
+// import {footer} from "../components/footer.js"
+
+// document.getElementById("footer_page_dynamic").innerHTML=footer();
+
+
+
+
+
+
+
+// <------------------  middle append portion --------------------------->
+
   
-  let key = "bb025f8cfd2d42748f38ba6ab456f616";
+  let key = "e43e2e25bfd040998ae269b42949e400";
   let c = "in";
   let cc = "business";
   let autoNews = async () => {
@@ -62,7 +91,7 @@ import {
   function slideshow() {
     let slideshows = document.getElementById("full");
     setInterval(function () {
-      console.log(i);
+
       if (i === obj.length) {
         i = 0;
       }
@@ -80,6 +109,8 @@ import {
   
       let p = document.createElement("h2");
       p.innerText = obj[i].tab;
+      p.style.fontSize="22px";
+      p.style.fontWeight="700";
   
       slideshows.innerHTML = null;
   

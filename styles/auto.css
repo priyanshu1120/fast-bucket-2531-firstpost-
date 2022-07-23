@@ -17,10 +17,14 @@
 
 /* <-------------------------bottom box css---------------------> */
 
+
 #main_box {
+  border:1px solid green;
   width: 1100px;
   display: flex;
   gap: 20px;
+  /* position:sticky;
+  top:200px; */
   margin: auto;
 }
 
@@ -40,7 +44,7 @@
 
 #latest_tab {
   width: 1100px;
-  /* background-color: #fad65f; */
+
   height: 20px;
   margin-top: 100px;
   margin-left: 130px;
@@ -53,6 +57,7 @@
 .A_news {
   width: 100%;
   margin-top: 30px;
+
 }
 
 .A_news > img {
@@ -64,6 +69,7 @@
   width: 98%;
   height: 170px;
   position: relative;
+
   margin-top: -50px;
   margin-left: 20px;
   padding: 10px;
@@ -71,19 +77,22 @@
 }
 
 .A_news > #contentdiv > h3 {
-  font-size: 24px;
+  font-size: 20px;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 700;
 }
 
 .A_news > #contentdiv > p {
-  font-size: 18px;
+  font-size: 16px;
+  
 }
 
 #subscribe-box {
   width: 100%;
   border: 1px solid rgb(222, 217, 217);
-  height: 250px;
+  height: 300px;
   margin-top: 10px;
-  padding: 10px;
+  padding-bottom: 10px 20px 10px 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -133,13 +142,14 @@
   font-size: 22px;
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 10px;
-  margin-top: 14px;
+  margin-top: 64px;
 }
-hr {
+
+#auto_news_adds >hr{
   width: 60%;
-  height: 6px;
+  height: 8px;
   margin-top: -10px;
-  background-color: #fad65f;
+  background-color: #f8d870 ;
 }
 
 #right_sidebar_news {
@@ -156,6 +166,7 @@ hr {
   margin-left: 40px;
   margin-top: 10px;
   color: rgb(47, 47, 47);
+  font-size:20px;
 }
 
 #side_news > p {
@@ -197,6 +208,9 @@ hr {
 
 #slidebox > h3 {
   margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 /*  ********************  */
@@ -232,7 +246,7 @@ hr {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 900;
-  font-size: 30;
+  font-size: 28px;
 }
 #top_title {
   width: 100%;
