@@ -5,6 +5,24 @@ import {
     newsSideDisplayData,
     explore_details,
   } from "../components/fetch.js";
+
+// <------------------------------navbar page--------------------------->
+
+import {navbar,sidebar,category} from "../components/navbar.js";
+
+
+document.getElementById("navbar").innerHTML =navbar();
+let side = document.getElementById("sidemenu");
+side.innerHTML=sidebar();
+
+let cat = document.getElementById("category");
+cat.innerHTML=category();
+
+// <------------------------------footer page--------------------------->
+import {footer} from "../components/footer.js";
+document.getElementById("footer_dum").innerHTML =footer();
+
+
   
   document.getElementById("subscribe-box").innerHTML = subscribe();
   let temp1 = document.getElementById("subscribe_btn");

@@ -4,6 +4,24 @@ import {
     newsDisplayData,
     newsSideDisplayData,
   } from "../components/fetch.js";
+
+
+// <------------------------------navbar page--------------------------->
+
+import {navbar,sidebar,category} from "../components/navbar.js";
+
+
+document.getElementById("navbar").innerHTML =navbar();
+let side = document.getElementById("sidemenu");
+side.innerHTML=sidebar();
+
+let cat = document.getElementById("category");
+cat.innerHTML=category();
+
+// <------------------------------footer page--------------------------->
+import {footer} from "../components/footer.js";
+document.getElementById("footer_dum").innerHTML =footer();
+  
   
   let key = "e43e2e25bfd040998ae269b42949e400";
   let c = "in";
