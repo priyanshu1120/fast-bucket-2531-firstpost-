@@ -9,7 +9,7 @@ import { navbar, sidebar, category } from "../components/navbar.js";
   let cat = document.getElementById("category");
   cat.innerHTML = category();
 
-let api = `662aa30ca2b1499189f1cbba8cb46f5a`;
+let api = `76211eabc2274931b21c2df65860de1b`;
 
 import {fetchingApi,appendToHome,fetchApi2,appendToSide} from "./home_components/fetch&append.js"
 
