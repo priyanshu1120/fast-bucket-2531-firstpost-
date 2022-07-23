@@ -1,0 +1,198 @@
+* {
+  margin: 0px;
+}
+
+#navbar {
+  height: 60px;
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#menu {
+  border: 1px solid red;
+  width: 40px;
+  height: 30px;
+  margin: auto;
+  display: inline-block;
+  margin-left: 0px;
+}
+#logo {
+  /* border: 1px solid rgb(255, 255, 255); */
+  width: 160px;
+  height: 40px;
+  /* margin: auto; */
+  align-items: center;
+  margin-left: 500px;
+  display: block;
+  cursor: pointer;
+}
+#social-icons {
+  /* border: 1px solid red; */
+  width: 200px;
+  height: 30px;
+
+  display: block;
+}
+.social-img {
+  height: 27px;
+  width: 27px;
+  align-items: center;
+  margin: auto;
+  margin-left: 12px;
+}
+#line {
+  border: 1px solid rgb(255, 255, 255);
+  height: 40px;
+  width: 0rem;
+  display: block;
+}
+#search-box {
+  /* background-color: red; */
+  align-items: center;
+  display: flex;
+}
+#search-id {
+  border: 1px solid black;
+  width: 300px;
+  height: 30px;
+  align-items: center;
+  display: block;
+  margin-right: 20px;
+  margin-bottom: 1px;
+  background-color: #000;
+  color: white;
+}
+
+#sidemenu {
+  /* border: 1px solid red; */
+  width: 40px;
+  height: 30px;
+  margin: auto;
+  display: block;
+  margin: -45px 1px -30px 00px;
+  /* cursor: pointer; */
+}
+#sidemenu hr {
+  margin-top: 5px;
+  background-color: white;
+  width: 20px;
+  align-items: center;
+}
+h6 {
+  cursor: pointer;
+  margin-left: 30px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+  display: block;
+  margin-top: -100px;
+}
+#menu-subsection {
+  height: 300px;
+  width: 60px;
+  /* border:  1px solid navy; */
+  display: block;
+}
+.sub-more {
+  height: 50px;
+  width: 60px;
+  border: 1px solid rgb(230, 229, 229);
+  background-color: #f0f1f5;
+  align-items: center;
+}
+.sub-more:hover {
+  background-color: #d6d7d8;
+}
+.sub-more-img {
+  height: 20px;
+  width: 20px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.sub-more p {
+  font-size: 12px;
+  color: rgb(136, 134, 134);
+  align-items: center;
+  justify-content: center;
+  margin-left: 6px;
+  cursor: pointer;
+}
+#all-pages {
+  /* border: 1px solid teal; */
+  margin-left: 70px;
+  margin-top: -300px;
+}
+
+/* category css */
+#category {
+  width: 1100px;
+  margin: auto;
+  height: 40px;
+  /* border:  1px solid teal; */
+  margin-top: 44px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  /* background-color: yellow; */
+}
+h6:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.change-color:hover {
+  color: red;
+  cursor: pointer;
+  text-align: center;
+}
+#other-logo {
+  display: flex;
+  gap: 15px;
+  margin-left: 10px;
+}
+#volvo {
+  background-color: red;
+  color: white;
+  font-size: small;
+  padding: 0px 7px 5px 6px;
+}
+#crypto {
+  background-color: rgb(52, 52, 150);
+  color: white;
+  font-size: small;
+  align-items: center;
+  padding: 0px 7px 5px 6px;
+}
+div a {
+  text-decoration: none;
+}
+#netra {
+  padding: 3px;
+  margin-left: 20px;
+}
+#category1 {
+  display: flex;
+  margin: auto;
+  gap: 15px;
+}
+.abcd {
+  /* background-color: red; */
+  margin-top: 25px;
+}
+
+#category1 a {
+  text-decoration: none;
+}
+#category a {
+  color: black;
+}
+
+#category a:hover {
+  color: red;
+}
+.abcd a {
+  color: black;
+}
