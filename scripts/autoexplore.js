@@ -15,7 +15,7 @@ document.getElementById("navbar").innerHTML =navbar();
 let side = document.getElementById("sidemenu");
 side.innerHTML=sidebar();
 
-let cat = document.getElementById("category_navbar");
+let cat = document.getElementById("category");
 cat.innerHTML=category();
 
 
