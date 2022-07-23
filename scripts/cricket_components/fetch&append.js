@@ -21,7 +21,7 @@ let appendToHome=(data,contain)=> {
         let img = document.createElement('img');
         img.src = image_url;
         console.log(img.src);
-        if(img.src == 'http://127.0.0.1:5500/fast-bucket-2531-firstpost-/null'  || img.src=='null'){ 
+        if(img.src == 'http://127.0.0.1:5500/fast-bucket-2531-firstpost-/null'  || img.src=='https://reliable-smakager-3fc934.netlify.app/null'){ 
             img.src = `https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80`;
         }
 
