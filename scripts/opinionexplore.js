@@ -53,7 +53,7 @@ document.getElementById("footer_dum").innerHTML=footer();
 
   // <------------------------middle portion left side  box--------------------------------->
 
-  let key = "e43e2e25bfd040998ae269b42949e400";
+  let key = "76211eabc2274931b21c2df65860de1b";
   let c = "in";
   let cc = "business";
   let autoNews = async () => {
