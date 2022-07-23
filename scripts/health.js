@@ -53,7 +53,7 @@ let obj = [
     image_url:
       "https://www.businessinsider.in/photo/93056828/the-1st-us-polio-case-in-9-years-left-a-man-paralyzed-it-could-have-been-avoided-with-vaccination-experts-say-.jpg?imgsize=103688",
     cate: "Health",
-    tab: "The 1st US polio case in 9 years left a man paralyzed. It could have been avoided with vaccination, experts sa",
+    tab: "The 1st US polio case in 9 years left a man paralyzed",
   },
   {
     image_url:
