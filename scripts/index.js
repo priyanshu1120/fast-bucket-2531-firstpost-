@@ -30,7 +30,8 @@ let container = document.getElementById('right-tank');
 appendToSide(data2,container);
 
 import {footer} from "../components/footer.js";
-  document.getElementById("footer_dum").innerHTML = footer();
+
+  document.getElementById("footer_dum").innerHTML = footer()
 
 
 
