@@ -5,7 +5,7 @@ import {
   newsSideDisplayData,
 } from "../components/fetch.js";
 
-let key = "7c4792ebcd784a529d0f5d1125e4f79d";
+let key = "76211eabc2274931b21c2df65860de1b";
 let c = "in";
 let cc = "Technology";
 let autoNews = async () => {

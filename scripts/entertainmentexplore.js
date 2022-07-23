@@ -26,7 +26,7 @@ let auto_explore = () => {
 };
 
 
-let key = "44e0c93e86de472dab37ad046e8a4e43";
+let key = "76211eabc2274931b21c2df65860de1b";
 let c = "in";
 let cc = "health";
 let autoNews = async () => {

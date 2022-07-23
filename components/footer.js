@@ -46,7 +46,7 @@ function footer(){
         <hr />
         <div>
           <h4>Section</h4>
-          <p><a href="home.html" id="page_link">Front Page</a></p>
+          <p><a href="index.html" id="page_link">Front Page</a></p>
           <p><a href="opinion.html" id="page_link">Politics</a></p>
           <p><a href="sports.html" id="page_link">Sports</a></p>
           <p><a href="india.html" id="page_link">India</a></p>
