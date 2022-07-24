@@ -21,7 +21,7 @@ cat.innerHTML=category();
 
 
 
-let key = "bb025f8cfd2d42748f38ba6ab456f616";
+let key = "76211eabc2274931b21c2df65860de1b";
 let c = "in";
 let cc = "technology";
 let autoNews = async () => {
